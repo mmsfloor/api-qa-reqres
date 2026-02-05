@@ -44,16 +44,16 @@ An environment with predefined variables for convenient test execution.
 To run these tests, you **must** provide a valid API key, as the Playground environment restricts anonymous access.
 
 1. **Get your API Key:**
-   - Go to [app.reqres.in](https://app.reqres.in/).
-   - Sign up (free) to generate your unique **API Key**.
+   - Go to [app.reqres.in](https://app.reqres.in/)
+   - Sign up (free) to generate your unique **API Key**
 2. **Import to Postman:**
-   - Import the `Reqres_API_Collection.postman_collection.json` and `Reqres_Test.postman_environment.postman_environment.json` files.
+   - Import the `reqres.postman_collection.json` and `reqres.postman_environment.json` files
 3. **Configure Environment:**
-   - Open the environment settings.
-   - Paste your key into the `api_key` variable (Current Value).
+   - Open the environment settings
+   - Paste your key into the `api_key` variable
 4. **Run Tests:**
-   - Ensure the correct environment is selected.
-   - The collection is configured to **Inherit Auth** from the parent folder, automatically adding the `x-api-key` header to all requests.
+   - Ensure the correct environment is selected
+   - The collection is configured to **Inherit Auth** from the parent folder, automatically adding the `x-api-key` header to all requests
 
 
 ## ⚠️ Undocumented Behavior and Defect Criteria
