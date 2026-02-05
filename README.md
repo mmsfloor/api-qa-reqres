@@ -1,13 +1,12 @@
 # API Testing Project: ReqRes Classic Playground
 
-This is a pet project focused on API testing using the public REST API https://reqres.in/ 
-used for practicing and demonstrating HTTP requests and CRUD operations on user resources.
+This project focuses on API testing using the public REST API https://reqres.in/,
+which provides endpoints for practicing HTTP requests and CRUD operations.
 
-The goal of this project is to verify the correctness of core endpoints,
+The goal of this project is to verify core endpoint functionality,
 input validation, and to document actual API behavior in cases
-where it is not explicitly described in the official documentation.
+where official documentation is incomplete or unclear.
 
----
 
 ## ✅ What Was Done
 
@@ -18,7 +17,6 @@ where it is not explicitly described in the official documentation.
 - Documented undocumented (or undefined) API behavior
 - Prepared reusable Postman collection and environment
 
----
 
 ## 🛠 Tools Used
 
@@ -26,7 +24,6 @@ where it is not explicitly described in the official documentation.
 - Google Sheets — for test case documentation
 - GitHub — for version control and project storage
 
----
 
 ## 📂 Project Artifacts
 
@@ -42,7 +39,6 @@ A structured set of requests grouped by functionality
 📁 **Postman Environment**  
 An environment with predefined variables for convenient test execution.
 
----
 
 ## ▶️ How to Use
 To run these tests, you **must** provide a valid API key, as the Playground environment restricts anonymous access.
@@ -51,7 +47,7 @@ To run these tests, you **must** provide a valid API key, as the Playground envi
    - Go to [app.reqres.in](https://app.reqres.in/).
    - Sign up (free) to generate your unique **API Key**.
 2. **Import to Postman:**
-   - Import the `collection.json` and `environment.json` files.
+   - Import the `Reqres_API_Collection.postman_collection.json` and `Reqres_Test.postman_environment.postman_environment.json` files.
 3. **Configure Environment:**
    - Open the environment settings.
    - Paste your key into the `api_key` variable (Current Value).
@@ -59,7 +55,6 @@ To run these tests, you **must** provide a valid API key, as the Playground envi
    - Ensure the correct environment is selected.
    - The collection is configured to **Inherit Auth** from the parent folder, automatically adding the `x-api-key` header to all requests.
 
----
 
 ## ⚠️ Undocumented Behavior and Defect Criteria
 
